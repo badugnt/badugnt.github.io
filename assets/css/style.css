@@ -1,0 +1,63 @@
+.fs {
+    font-size: 20px;
+}
+body {
+    font-family: 'roboto condensed','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(218, 226, 196, 0.508);
+}
+.green-ish {
+    background-color: rgba(171, 184, 135, 0.805);
+}
+background-color: rgba(176, 187, 147, 0.508);
+.def-look {
+    font-size: 16px;
+}
+.margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#element {
+position:relative;
+}
+#element img {transition: all 0.5s ease}
+#element:hover img {
+opacity:0.5;
+-webkit-filter:grayscale(0.5);
+}
+#element div {
+opacity:0; 
+transition: all 0.5s ease;
+position:absolute; 
+text-align: center;
+bottom: 10px;
+
+}
+#element:hover div {
+opacity:1;
+text-align: center;
+}
+
+.nav-bg {
+    background-color: rgb(56, 182, 148);
+}
+
+.home-nav-bg {
+    background-color: rgba(224, 228, 226, 0.681);
+}
+nav{
+    background-color: rgba(218, 227, 193, 0.502);
+}
+
+.rad-ov {
+    border-radius: 100px 100px;
+}
+
+@media (max-width: 570px) {
+    .form-control {
+        margin-bottom: 5px;
+    }
+
+  }
+bi {
+    line-height: 0;display: inline-flex;justify-content: center;align-items: center;
+}
